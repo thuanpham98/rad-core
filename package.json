@@ -6,6 +6,12 @@
   "maintainers": [
     "pmttmp24@gmail.com"
   ],
+  "keywords": [
+    "thuanpm98",
+    "@rad/core",
+    "@rad/rad-ts"
+  ],
+  "author": "Phạm Minh Thuận <pmttmp24@gmail.com> (https://github.com/thuanpham98)",
   "homepage": "https://github.com/thuanpham98/rad-core",
   "files": [
     "dist",
@@ -42,6 +48,14 @@
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^8.9.0",
     "prettier": "3.0.0"
+  },
+  "description": "This library aims to create a hybrid between framework and library, providing faster and better quality web building tools.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuanpham98/rad-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thuanpham98/rad-core/issues"
   }
 
 }
