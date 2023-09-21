@@ -302,4 +302,4 @@ export {
   w as RdSubject,
   _ as rdCreateWorker
 };
-//# sourceMappingURL=rad-core.js.map
+//# sourceMappingURL=radts-core.js.map

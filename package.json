@@ -1,5 +1,5 @@
 {
-  "name": "@rad/core",
+  "name": "@radts/core",
   "version": "1.1.3",
   "type": "module",
   "license": "MIT",
@@ -8,8 +8,8 @@
   ],
   "keywords": [
     "thuanpm98",
-    "@rad/core",
-    "@rad/rad-ts"
+    "@radts/core",
+    "@radts/react"
   ],
   "author": "Phạm Minh Thuận <pmttmp24@gmail.com> (https://github.com/thuanpham98)",
   "homepage": "https://github.com/thuanpham98/rad-core",
@@ -17,13 +17,13 @@
     "dist",
     "dist/*.css"
   ],
-  "main": "./dist/rad-core.cjs",
-  "module": "./dist/rad-core.js",
+  "main": "./dist/radts-core.cjs",
+  "module": "./dist/radts-core.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/rad-core.js",
-      "require": "./dist/rad-core.cjs"
+      "import": "./dist/radts-core.js",
+      "require": "./dist/radts-core.cjs"
     },
     "./dist/*.css": {
       "import": "./dist/*.css",
@@ -41,13 +41,12 @@
     "@types/node": "^20.6.3",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
-    "typescript": "^5.2.2",
-    "vite": "^4.3.2",
-    "vite-plugin-dts": "^2.3.0",
-    "vite-plugin-svgr": "^3.2.0",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^8.9.0",
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0"
   },
   "description": "This library aims to create a hybrid between framework and library, providing faster and better quality web building tools.",
   "repository": {
