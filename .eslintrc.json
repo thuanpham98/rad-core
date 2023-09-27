@@ -25,7 +25,4 @@
     "prefer-const": "warn",
     "no-useless-escape": "warn"
   }
-
-
-
 }
