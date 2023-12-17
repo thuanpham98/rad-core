@@ -1,6 +1,6 @@
 {
   "name": "@radts/core",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "type": "module",
   "license": "MIT",
   "maintainers": [
@@ -34,11 +34,8 @@
   "scripts": {
     "build": "tsc && prettier --write src/ && eslint src/ && vite build"
   },
-  "dependencies": {
-    "path": "^0.12.7",
-    "tslib": "^2.5.0"
-  },
   "devDependencies": {
+    "tslib": "^2.5.0",
     "@types/node": "^20.7.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
@@ -57,5 +54,4 @@
   "bugs": {
     "url": "https://github.com/thuanpham98/rad-core/issues"
   }
-
 }
