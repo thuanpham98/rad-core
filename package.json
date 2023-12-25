@@ -1,6 +1,6 @@
 {
   "name": "@radts/core",
-  "version": "1.1.7",
+  "version": "2.1.3",
   "type": "module",
   "license": "MIT",
   "maintainers": [
@@ -55,3 +55,4 @@
     "url": "https://github.com/thuanpham98/rad-core/issues"
   }
 }
+

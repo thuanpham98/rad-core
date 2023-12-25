@@ -1,6 +1,6 @@
 import { RdStream } from "./rd-stream";
 
-export class RdBloc<T> {
+export class RdBloc<T extends NonNullable<unknown>> {
   public stream: RdStream<T>;
   private _state: T;
 
@@ -12,22 +12,15 @@ export class RdBloc<T> {
     callback?: () => void | Promise<void>;
   }) {
     this._state = initState;
-    this.stream = new RdStream<T>(initState);
+    this.stream = new RdStream<T>(this._state);
     callback && callback();
   }
 
-  public set state(s: T) {
-    this._state = s;
-  }
-
   public get state(): T {
-    return this._state;
+    return this.stream.value;
   }
 
-  public upDateState(s?: T) {
-    if (s !== undefined) {
-      this._state = s;
-    }
-    this._state && this.stream.next(this._state);
+  public upDateState(s: T) {
+    this.stream.next(s);
   }
 }
